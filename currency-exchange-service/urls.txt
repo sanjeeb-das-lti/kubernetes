@@ -1,0 +1,16 @@
+Currency Exchange Service
+- http://localhost:8000/currency-exchange/from/USD/to/INR
+
+http://34.67.62.75:8000/currency-exchange/from/USD/to/INR
+
+Currency Conversion Service
+- http://localhost:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+http://34.29.1.68:8100/currency-conversion-feign/from/USD/to/INR/quantity/10
+
+http://35.223.40.231:8000/actuator/health/
+http://35.223.40.231:8000/actuator/health/liveness
+http://35.223.40.231:8000/actuator/health/readiness\
+
+
+2023-07-10 11:58:13.958  INFO [currency-exchange,45baeb928579ea42,dcfea92512f3e6c1] 1 --- [nio-8000-exec-9] c.i.m.c.CurrencyExchangeController       : retrieveExchangeValue called with USD to INR
